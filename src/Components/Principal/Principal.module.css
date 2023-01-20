@@ -1,0 +1,51 @@
+:root{
+    --primary-color: #fafe01;
+    --secondary-color: rgb(179, 170, 170)
+
+}
+.col{
+    background-color: aqua;
+    height: 100vh;
+
+ 
+}
+.colD{
+    background-color: var(--primary-color);
+    height: 100vh;
+    /* width: 100vw; */
+   
+ 
+}
+
+.contenedorColD{
+    width: 100vw;
+}
+
+.colD2{
+    background-color:bisque;
+    height: 100vh;
+    /* width: 100vw; */
+ 
+}
+
+.imagenPerfil{
+    width: 12rem;
+    height: 10rem;
+    border-radius: 80%;
+    border: solid 1px var(--secondary-color);
+}
+
+.primeraLinea {
+        
+    display: block;
+    white-space: nowrap;
+    background: var(--primary-color);
+
+    
+}
+
+
+.icono{
+    width: 3.5rem;
+    height: 3.5rem;
+}
