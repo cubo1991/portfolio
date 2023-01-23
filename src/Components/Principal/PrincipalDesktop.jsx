@@ -114,7 +114,7 @@ export const PrincipalDesktop = () => {
                 </div>
               </div>
               <div className={`col mt-1 p-1`}>
-                <h3> Mis trabajos</h3>{" "}
+                <h3> Algunos de mis trabajos</h3>
                 <AiFillCaretDown
                   className={`${s.flechaBtn}`}
                   onClick={onProyectos}

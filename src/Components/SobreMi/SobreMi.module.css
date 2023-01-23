@@ -45,18 +45,17 @@
 }
 
 
-.icono{
-    width: 4rem;
-    height: 4rem;
-    padding: 0.5rem;
+.cuadroTexto {
+       background-color: antiquewhite;
+       border-radius: 2%;
+      
 }
 
-.flechaBtn {
-
-    height: 1.5rem;
-    width: 1.5rem;
+.cuadroTexto p {
+    text-align: justify;
+    font-size: small;
 }
 
-.flechaBtn:hover{
-    cursor:pointer;
+.cuadroTexto span{
+    font-size: large;
 }
