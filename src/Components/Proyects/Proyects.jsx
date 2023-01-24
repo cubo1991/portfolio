@@ -1,5 +1,5 @@
 import React from 'react'
-
+import s from "./Proyects.module.css";
 
 
 export const Proyects = () => {
@@ -17,7 +17,7 @@ export const Proyects = () => {
     <iframe width="560" height="290" className="d-block w-100" src="https://www.youtube.com/embed/5FqolQbA9dw?rel=0?version=3&mute=1&autoplay=1&loop=1&controls=0&playlist=5FqolQbA9dw" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreen></iframe>
       <div className="carousel-caption d-none d-md-block">
         <h5>Changapp</h5>
-        <p>Proyecto grupal de un e-commerce para bootcamp Henry.</p>
+        <p>Proyecto grupal de un e-commerce para el bootcamp Henry.</p>
       </div>
     </div>
     <div className="carousel-item">
@@ -31,7 +31,7 @@ export const Proyects = () => {
     <iframe width="560" height="290" className="d-block w-100" src="https://www.youtube.com/embed/1_5Zig2uc1Q?rel=0?version=3&mute=1&autoplay=1&loop=1&controls=0&playlist=1_5Zig2uc1Q" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreen></iframe>
       <div className="carousel-caption d-none d-md-block">
         <h5>Dog App</h5>
-        <p>App que consume una API para el proyecto individual del bootcamp Henry.</p>
+        <p >App que consume una API para el proyecto individual del bootcamp Henry.</p>
       </div>
     </div>
   </div>

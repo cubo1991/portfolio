@@ -1,5 +1,5 @@
 import React from 'react'
-import { ExternalLink } from 'react-external-link'
+
 import { ColIZq } from '../ColIzq/ColIZq'
 import s from "./SobreMi.module.css";
 

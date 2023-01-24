@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import s from "./Principal.module.css";
-import perfil from "../../Media/PNG.png";
 import { ExternalLink } from "react-external-link";
 import { Proyects } from "../Proyects/Proyects";
 import { AiFillCaretDown } from "react-icons/ai";
-import { Menu } from "../Menu/Menu";
+
 import { ColIZq } from "../ColIzq/ColIZq";
 
 export const PrincipalDesktop = () => {
