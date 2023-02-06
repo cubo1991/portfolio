@@ -24,7 +24,8 @@
 
 .colD2{
     background: linear-gradient(266deg,#FFE4C4, #FFFFFF);
-    height: 100vh;
+    min-height: 100vh;
+    height: fit-content;
     /* width: 100vw; */
  
 }
@@ -45,7 +46,9 @@
 
     
 }
-
+.tecnologias{
+    margin-top: -2.5rem;
+}
 
 .icono{
     width: 4rem;

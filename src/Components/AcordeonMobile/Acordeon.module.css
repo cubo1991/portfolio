@@ -24,8 +24,8 @@
 
 .colD2{
     background: linear-gradient(266deg,#FFE4C4, #FFFFFF);
-    min-height: fit-content;
-    height: 32rem;
+    min-height: 100vh;
+    height: fit-content;
     /* width: 100vw; */
  
 }
@@ -46,7 +46,9 @@
 
     
 }
-
+.tecnologias{
+    margin-top: -2.5rem;
+}
 
 .icono{
     width: 4rem;
@@ -67,6 +69,31 @@
 .tituloh3{ color:rgb(145, 125, 100);
     font-weight: bolder;}
 
-    .cuadroTexto{
-        height: fit-content;
+    .primeraLinea {
+        
+        display: block;
+        white-space: nowrap;
+        background: var(--primary-color);
+    
+        
     }
+    
+    
+    .cuadroTexto {
+        background: linear-gradient(266deg,#FFE4C4, #FFFFFF);
+           border-radius: 2%;
+           height: fit-content;
+           width: 100vw;
+          
+    }
+    
+    .cuadroTexto p {
+        text-align: justify;
+        font-size:small ;
+        line-height: 15px ;
+    }
+        
+    .cuadroTexto span{
+        font-size: large;
+    }
+    
