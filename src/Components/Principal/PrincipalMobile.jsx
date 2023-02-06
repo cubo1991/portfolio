@@ -1,18 +1,17 @@
 import React from 'react';
 import { Acordeon } from '../AcordeonMobile/Acordeon';
+import { ColIZqMobile } from '../ColIzq/ColIzqMobile';
 
-import { NavBar } from '../NavBar/NavBar';
 
 import s from './PrincipalMobile.module.css'
 export const PrincipalMobile = () => {
 
   
   return (
-    <div style={{width:"100wv"}}>
-          <NavBar/>
-      <div className={`container-fluid text-center `} >
+    <div className={`container ${s.principal}`} style={{width:"100wv"}}>
+     <ColIZqMobile/>    
     <Acordeon/>
-</div>
+
 </div>
   )
 }

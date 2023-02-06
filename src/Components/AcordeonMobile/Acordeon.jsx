@@ -13,18 +13,18 @@ import dogs from "../../Media/Videos/Dogs.mp4"
 export const Acordeon = () => {
   
   return (
-    <div className="accordion" id="accordionExample">
-    <div className="accordion-item">
+    <div className={`accordion ${s.principal}`}  id="accordionExample">
+    <div className={`accordion-item container-fluid ${s.principal}`}>
       <h2 className="accordion-header" id="headingOne">
-        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button className={`accordion-button ${s.principal}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         Tecnologias y herramientas
         </button>
       </h2>
-      <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-        <div className="accordion-body">
-        <div className={`col mt-1 p-1`} style={{ height: "10rem" }}>
-                  <h4>Front-End</h4>
-                  <div className={s.tecnologias}>
+      <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div className={`accordion-body ${s.principal}`}>
+        <div className={`col`} style={{ height: "5rem" }}>
+                  <h4 className={s.tituloMobile}>Front-End</h4>
+                  <div className={`${s.tecnologias} container-fluid`}>
                     <ExternalLink href="https://reactjs.org/">
                       <img
                         className={`img-fluid mt-5 ${s.icono}`}
@@ -72,9 +72,9 @@ export const Acordeon = () => {
                     </ExternalLink>
                   </div>
                 </div>
-                <div className={`col mt-1 p-1`} style={{ height: "10rem" }}>
-                  <h4>Back-End</h4>
-                  <div className={s.tecnologias}>
+                <div className={`col`} style={{ height: "5rem" }}>
+                  <h4 className={s.tituloMobile}>Back-End</h4>
+                  <div className={`${s.tecnologias} container-fluid`}>
                     <ExternalLink href={"https://nodejs.org/"}>
                       <img
                         className={`img-fluid mt-5 ${s.icono}`}
@@ -115,14 +115,14 @@ export const Acordeon = () => {
         </div>
       </div>
     </div>
-    <div className="accordion-item">
+    <div className={`accordion-item container-fluid ${s.principal}`}>
       <h2 className="accordion-header" id="headingTwo">
-        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <button className={`accordion-button collapsed ${s.principal}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           Sobre mi
         </button>
       </h2>
-      <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-        <div className="accordion-body">
+      <div id="collapseTwo" className="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div className={`accordion-body ${s.principal}`}>
         <div className={s.cuadroTexto}>
               <p>Me llamo David Lopez, nací en 1991 en la ciudad de Mar del Plata, Argentina. A los 6 años junto a mi familia nos fuimos a vivir al sur de la provincia de Mendoza, para en 1999 instalarnos definitivamente en la capital provincial, la Ciudad de Mendoza.</p>
               <br/>
@@ -140,14 +140,14 @@ export const Acordeon = () => {
         </div>
       </div>
     </div>
-    <div className="accordion-item">
+    <div className={`accordion-item container-fluid ${s.principal}`}>
       <h2 className="accordion-header" id="headingThree">
-        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <button className={`accordion-button collapsed ${s.principal}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
     Mis proyectos        
     </button>
       </h2>
       <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-        <div className="accordion-body">
+        <div className={`accordion-body ${s.principal}`}>
         <div class="album py-5 bg-light" style={{ background: "linear-gradient(266deg,#FFE4C4, #FFFFFF)"}}> 
     <div class="container" >
 
@@ -220,3 +220,5 @@ export const Acordeon = () => {
   </div>
   )
 }
+
+

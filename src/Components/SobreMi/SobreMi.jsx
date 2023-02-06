@@ -23,7 +23,7 @@ export const SobreMi = () => {
         <div className={`row `}>
          <ColIZq/>
          {
-       window.innerWidth > 896
+       window.innerWidth > 933
    ?
           <div className={`col-9 ${s.colD2}`} style={{ padding: "2rem" }}>
             <div className={`row mt-1 p-1`}>
@@ -47,10 +47,10 @@ export const SobreMi = () => {
            
           </div>
           :
-          <div className={`col-12 ${s.colD2}`} style={{ padding: "2rem" }}>
+          <div className={`col-12 ${s.colD2Mobile}`} style={{ padding: "2rem", height:"100rem" }}>
           <div >
             <h3> Sobre Mi</h3>
-            <div className={s.cuadroTexto}>
+            <div className={s.cuadroTextoMobile}>
             <p>Me llamo David Lopez, nací en 1991 en la ciudad de Mar del Plata, Argentina. A los 6 años junto a mi familia nos fuimos a vivir al sur de la provincia de Mendoza, para en 1999 instalarnos definitivamente en la capital provincial, la Ciudad de Mendoza.</p>
             <br/>
             <p>En el 2009, tras completar mis estudios secundarios en la Escuela de Comercio Martín Zapata, dependiente de la Universidad Nacional de Cuyo, empecé la licenciatura en Comunicación Social en esta casa de altos estudios. Sin embargo, y debido a la incompatibilidad de tiempos con mi trabajo, tuve que abandonar la carrera en el 2015. No obstante, en el 2016 empece a estudiar la tecnicatura en Comuniación Social en el Instituto Fabián Calle. De esta forma, y solo habiendo desaprobado un parcial en toda la carrera, me recibí como Técnico Superior en el 2019. </p>

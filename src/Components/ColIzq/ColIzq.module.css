@@ -12,7 +12,7 @@
  
 }
 .colD{
-   background: linear-gradient(90deg, #FFFF66, #FFFFFF);
+   background: linear-gradient(80deg, #FFFF66, #FFFFFF);
     height: 100vh;
     /* width: 100vw; */
    
@@ -26,7 +26,7 @@
 .colD2{
     background-color:bisque;
     height: 100vh;
-    /* width: 100vw; */
+    width: 100rem;
  
 }
 
@@ -65,3 +65,25 @@
     cursor:pointer;
 }
 
+.imagenPerfilMobile{
+    width: 4rem;
+    height: 4rem;
+        border-radius: 80%;
+    border: solid 1px var(--secondary-color);
+  
+}
+
+.iconoMobile{
+   
+    width: 5rem;
+    height: 5rem;
+    padding: 0.5rem;
+}
+
+.colDMobile{
+    background: linear-gradient(166deg, #FFFF66, #FFFFFF);
+    
+     /* width: 100vw; */
+    
+  
+ }

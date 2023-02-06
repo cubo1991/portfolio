@@ -22,8 +22,15 @@
 }
 
 .colD2{
-    background: linear-gradient(266deg,#FFE4C4, #FFFFFF);
-    height: 100vh;
+    background: linear-gradient(280deg,#FFE4C4, #FFFFFF);
+    height: fit-content;
+    /* width: 100vw; */
+ 
+}
+
+.colD2Mobile{
+    background: linear-gradient(38deg,#FFE4C4, #FFFFFF);
+    height: fit-content;
     /* width: 100vw; */
  
 }
@@ -46,10 +53,20 @@
 
 
 .cuadroTexto {
-    background: linear-gradient(266deg,#FFE4C4, #FFFFFF);
+    background: linear-gradient(280deg,#FFE4C4, #FFFFFF);
        border-radius: 2%;
        height: fit-content;
-       width: 100vw;
+       min-height: 79.5vh;
+       width: fit-content;
+      
+}
+
+.cuadroTextoMobile {
+    background: linear-gradient(38deg,#FFE4C4, #FFFFFF);
+       border-radius: 2%;
+       height: fit-content;
+       min-height: 79.5vh;
+       width: fit-content;
       
 }
 

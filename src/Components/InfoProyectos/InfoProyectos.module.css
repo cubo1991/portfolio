@@ -33,6 +33,12 @@
     /* width: 100vw; */
  
 }
+.colD2Mobile{
+    background: linear-gradient(266deg,#FFE4C4, #FFFFFF);
+    height:93rem;
+    width: fit-content;
+ 
+}
 
 .imagenPerfil{
     width: 12rem;

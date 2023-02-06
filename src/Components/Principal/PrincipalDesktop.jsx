@@ -28,9 +28,9 @@ export const PrincipalDesktop = () => {
           <div className={`row `}>
            <ColIZq/>
            {
-       window.innerWidth > 896
+       window.innerWidth > 933
    ?
-            <div className={`col-9 ${s.colD2}`} style={{ padding: "2rem" }}>
+            <div className={`col-9 ${s.colD2}`} style={{ padding: "2rem", }}>
               <div className={`row mt-1 p-1`}>
                 <h3> Tecnologias y herramientas</h3>
                 <div className={`col mt-1 p-1`} style={{ height: "10rem" }}>
@@ -134,10 +134,10 @@ export const PrincipalDesktop = () => {
               </div>
             </div>
             :
-            <div className={`col ${s.colD2}`} style={{ padding: "2rem" }}>
+            <div className={`col-12 ${s.colD2Mobile}`} style={{ padding: "2rem"}}>
             <div className={`row mt-1 p-1`}>
               <h3> Tecnologias y herramientas</h3>
-              <div className={`col mt-1 p-1`} style={{ height: "10rem" }}>
+              <div className={`col mt-1 p-1`} style={{ }}>
                 <h4>Front-End</h4>
                 <div className={s.tecnologias}>
                   <ExternalLink href="https://reactjs.org/">
