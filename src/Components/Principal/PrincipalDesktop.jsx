@@ -114,6 +114,13 @@ export const PrincipalDesktop = () => {
                         alt="PostgreSQL"
                       ></img>
                     </ExternalLink>
+                    <ExternalLink href={"https://www.mongodb.com/"}>
+                      <img
+                        className={`img-fluid mt-5 ${s.icono}`}
+                        src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg"
+                        alt="MongoDB"
+                      ></img>
+                    </ExternalLink>
                     <ExternalLink href={"https://redux.js.org/"}>
                       <img
                         className={`img-fluid mt-5 ${s.icono}`}
