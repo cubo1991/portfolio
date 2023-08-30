@@ -6,7 +6,7 @@ import { ExternalLink } from 'react-external-link';
 
 export const ColIZq = () => {
   return (
-    <div className={`col ${s.colD}` }  style={{padding: "1rem"}}>
+    <div className={`col ${s.colD}` }  style={{padding: "1rem", height:"100vh"}}>
               <img
                 className={`img-fluid mt-5 ${s.imagenPerfil}`}
                 src={perfil}

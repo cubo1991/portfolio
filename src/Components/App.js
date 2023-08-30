@@ -11,7 +11,6 @@ import { InfoProyectos } from './InfoProyectos/InfoProyectos';
 import { CV } from './CV/CV';
 
 import { Routes, Route } from 'react-router-dom';
-// import { NavBar } from './NavBar/NavBar';
 
 
 

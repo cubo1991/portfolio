@@ -13,7 +13,7 @@ export const PrincipalDesktop = () => {
   };
 
     const [size, setSize] = useState(window.innerWidth)
-  console.log(size)
+
   React.useEffect(() => {
     const handleResizeWindow = () => setSize(window.innerWidth);
  
@@ -30,7 +30,7 @@ export const PrincipalDesktop = () => {
            {
        window.innerWidth > 933
    ?
-            <div className={`col-9 ${s.colD2}`} style={{ padding: "2rem", }}>
+            <div className={`col-9 ${s.colD2}`} style={{ padding: "2rem", height:"100vh" }}>
               <div className={`row mt-1 p-1`}>
                 <h3> Tecnologias y herramientas</h3>
                 <div className={`col mt-1 p-1`} style={{ height: "10rem" }}>

@@ -7,7 +7,9 @@
   
   }
   
- 
+ .color{
+    background: 'linear-gradient(266deg,#FFE4C4, #FFFFFF)'
+ }
 
 .col{
     background-color: aqua;
@@ -29,13 +31,13 @@
 
 .colD2{
     background: linear-gradient(266deg,#FFE4C4, #FFFFFF);
-    height: 100vh;
+    height: fit-content
     /* width: 100vw; */
  
 }
 .colD2Mobile{
     background: linear-gradient(266deg,#FFE4C4, #FFFFFF);
-    height:93rem;
+    height:169rem;
     width: fit-content;
  
 }
@@ -72,3 +74,11 @@
 .flechaBtn:hover{
     cursor:pointer;
 }
+
+.image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
